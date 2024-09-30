@@ -119,7 +119,7 @@ const reducer = (state: TFormState, action: Action): TFormState => {
         ...state,
         formData: {
           ...state.formData,
-          ...action.payload.formData,
+          ...action.payload,
         },
         sameDataAsResponse: false,
       }

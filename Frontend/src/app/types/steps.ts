@@ -11,7 +11,7 @@ export type TFormState = {
 };
 export type TFormMessage = {
     content: string
-    role: "user" | "assistant"
+    role: "USER" | "BOT"
     timestamp: string
 }
 
